@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --cor-primaria: rgb(13, 106, 134);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--cor-primaria);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.sub-titulo{
+    text-align: center;
+    cursor: default;
+    font-size: 1.5em;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2.5em;
+    cursor: default;
+}
+
+.instrucoes{
+    text-align: center;
+    font-size: 1em;
+}
+
+.descri1 {
+    background: #09F551;
+    font-weight: 700;
+}
+
+.descri2 {
+    background: #E8F60E;
+    font-weight: 700;
+}
+
+.descri3 {
+    background: #F50A0A;
+    font-weight: 700;
+}
+
+.descri4 {
+    background: #0A72FF;
+    font-weight: 700;
+}
+
+.descri5 {
+    font-weight: 700; 
+}
+
+.relogio {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 3em;
+    cursor: default;
+}
+
+
+.iniciar {
+    background: #09F551;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.iniciar:hover {
+    background: #09A93A;
+    color: #fff;
+    cursor: pointer;
+}
+
+.pausar {
+    background: #E8F60E;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.pausar:hover {
+    background: #BAC000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.zerar {
+    background: #F50A0A;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    font-size: 1em;
+}   
+
+.zerar:hover {
+    background: #9E0808;
+    color: #fff;
+    cursor: pointer;
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.pomodoro {
+    background: #0A72FF;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.pomodoro:hover {
+    background: #0856AD;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.pausado {
+    color: red;
+}
+
+.text-pomodoro {
+    color: #0A72FF;
+}
